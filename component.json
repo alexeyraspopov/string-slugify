@@ -1,6 +1,6 @@
 {
   "name": "string-slugify",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Convert strings to slug",
   "license": "MIT",
   "main": "index.js",

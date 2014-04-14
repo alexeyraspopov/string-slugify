@@ -10,7 +10,7 @@ Convert strings to slug
 
 ## API
 
-TBD
+	slugify(string, options);
 
 ## Usage
 

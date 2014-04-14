@@ -37,4 +37,11 @@ describe('slugify', function(){
 
 		expect(actual).toBe(expected);
 	});
+
+	it('should remove signs', function(){
+		var actual = slugify('hello, world. this is demo string!', { remove: '!?,._-' }),
+			expected = 'hello-world-this-is-demo-string';
+
+		expect(actual).toBe(expected);
+	});
 });

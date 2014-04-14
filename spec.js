@@ -10,6 +10,13 @@ describe('slugify', function(){
 		expect(actual).toBe(expected);
 	});
 
+	it('should trim string', function(){
+		var actual = slugify(' hello world     '),
+			expected = 'hello-world';
+
+		expect(actual).toBe(expected);
+	});
+
 	it('should convert to lower case', function(){
 		var actual = slugify('Hello World'),
 			expected = 'hello-world';

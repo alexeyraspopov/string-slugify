@@ -39,7 +39,7 @@ describe('slugify', function(){
 	});
 
 	it('should remove signs', function(){
-		var actual = slugify('hello, world. this is demo string!', { remove: '!?,._-' }),
+		var actual = slugify('hello, world. this is demo string!', { remove: './\\()\"\'-:,.;<>~!@#$%^&*|+=[]{}`~?' }),
 			expected = 'hello-world-this-is-demo-string';
 
 		expect(actual).toBe(expected);

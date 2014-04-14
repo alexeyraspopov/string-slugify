@@ -9,7 +9,7 @@ function replace(string, flow){
 }
 
 function removeSymbols(symbols){
-	return symbols && new RegExp('[' + symbols + ']', 'g');
+	return symbols && new RegExp('[' + symbols.replace(/./g, '\\$&') + ']', 'g');
 }
 
 module.exports = function(string, options){

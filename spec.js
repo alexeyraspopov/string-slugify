@@ -10,6 +10,13 @@ describe('slugify', function(){
 		expect(actual).toBe(expected);
 	});
 
+	it('should convert more than one space to dash', function(){
+		var actual = slugify('hello world    again'),
+			expected = 'hello-world-again';
+
+		expect(actual).toBe(expected);
+	});
+
 	it('should trim string', function(){
 		var actual = slugify(' hello world     '),
 			expected = 'hello-world';

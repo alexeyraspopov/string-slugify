@@ -15,11 +15,9 @@ function removeSymbols(symbols){
 module.exports = function(string, options){
 	options = options || {};
 
-	string = replace(string.trim(), [
+	return replace(string.trim(), [
 		[options.remove, removeSymbols(options.remove), ''],
 		[true, /\s+/g, '-'],
 		[options.camelCase, /([A-Z])/g, '-$1']
-	]);
-
-	return string.toLowerCase();
+	]).toLowerCase();
 };

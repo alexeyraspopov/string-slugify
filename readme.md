@@ -4,9 +4,18 @@ Convert strings to slug
 
 ## Install
 
- * via [npm](https://npmjs.org) `npm install string-slugify`
- * via [component](http://component.io) `component install alexeyraspopov/string-slugify`
- * via [bower](http://bower.io) `bower install string-slugify`
+```bash
+npm install string-slugify
+```
+
+```bash
+component install alexeyraspopov/string-slugify
+```
+
+```bash
+bower install string-slugify
+```
+
 
 ## API
 

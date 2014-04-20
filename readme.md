@@ -23,7 +23,7 @@ bower install string-slugify
 
 ## Usage
 
-TBD
+	slugify('Hello world'); // 'hello-world'
 
 ## TODO
 

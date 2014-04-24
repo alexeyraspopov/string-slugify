@@ -27,7 +27,6 @@ bower install string-slugify
 
 ## TODO
 
- - CLI
  - sign replace (umlaut)
  - [research](http://stackoverflow.com/questions/8991908/how-do-i-enhance-slugify-to-handle-camel-case)
  - research: escape and unescape functions

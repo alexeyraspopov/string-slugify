@@ -1,19 +1,19 @@
-# String-slugify
+# string-slugify
 
 Convert strings to slug
 
 ## Install
 
 ```bash
-npm install string-slugify
+$ npm install string-slugify
 ```
 
 ```bash
-component install alexeyraspopov/string-slugify
+$ component install alexeyraspopov/string-slugify
 ```
 
 ```bash
-bower install string-slugify
+$ bower install string-slugify
 ```
 
 

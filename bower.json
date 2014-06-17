@@ -4,5 +4,16 @@
   "description": "Convert strings to slug",
   "license": "MIT",
   "main": "index.js",
-  "author": "Alexey Raspopov (https://github.com/alexeyraspopov)"
+  "author": "Alexey Raspopov (https://github.com/alexeyraspopov)",
+  "moduleType": [
+    "globals",
+    "node"
+  ],
+  "ignore": [
+    "*",
+    "!index.js",
+    "!slugify.js",
+    "!bower.json",
+    "!readme.md"
+  ]
 }
